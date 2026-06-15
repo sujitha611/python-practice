@@ -1,0 +1,8 @@
+name = input("Enter student name: ")
+marks = input("Enter marks: ")
+f = open("student.txt", "a")
+f.write(name + " " + marks + "\n")
+f.close()
+f = open("student.txt", "r")
+print(f.read())
+f.close()
