@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.xlsx
+student.txt
+.vscode/
+.DS_Store
+Thumbs.db
